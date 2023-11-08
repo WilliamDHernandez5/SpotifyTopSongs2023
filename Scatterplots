@@ -1,0 +1,8 @@
+>  x <- rnorm(1000)
+>  y <- rnorm(1000)
+>  
+>      plot(spotify_2023$in_apple_charts,spotify_2023$in_apple_playlists, main="Apple ScatterPlot", col=rgb(0,100,0,50,maxColorValue=255), pch=16)
+>  x <- rnorm(1000)
+>  y <- rnorm(1000)
+>  
+>      plot(spotify_2023$in_spotify_charts,spotify_2023$in_spotify_playlists, main="Spotify ScatterPlot", col=rgb(0,100,0,50,maxColorValue=255), pch=16)
