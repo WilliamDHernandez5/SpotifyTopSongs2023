@@ -1,0 +1,18 @@
+> mean(spotify_2023$in_apple_charts, na.rm = TRUE)
+[1] 51.90871
+> mean(spotify_2023$in_spotify_charts, na.rm = TRUE)
+[1] 12.00944
+> mean(spotify_2023$in_spotify_playlists, na.rm = TRUE)
+[1] 5200.125
+> mean(spotify_2023$in_apple_playlists, na.rm = TRUE)
+[1] 67.81217
+> mean(spotify_2023$in_apple_charts, trim=0.05)
+[1] 47.65658
+> mean(spotify_2023$in_spotify_charts, trim=0.05)
+[1] 9.182771
+> mean(spotify_2023$in_spotify_playlists, trim=0.05)
+[1] 3966.227
+> mean(spotify_2023$in_apple_playlists, trim=0.05)
+[1] 56.27939
+> #The reson why I decided to trim the mean of these x's is to remove any outliers and to not have any drastic changes to the mean because of these outliers.
+#I also didn't have to remove or adjust for missing data.
