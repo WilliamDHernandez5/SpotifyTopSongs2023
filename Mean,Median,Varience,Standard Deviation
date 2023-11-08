@@ -1,0 +1,40 @@
+> mean(spotify_2023$in_apple_charts, na.rm = TRUE)
+[1] 51.90871
+> mean(spotify_2023$in_spotify_charts, na.rm = TRUE)
+[1] 12.00944
+> mean(spotify_2023$in_spotify_playlists, na.rm = TRUE)
+[1] 5200.125
+> mean(spotify_2023$in_apple_playlists, na.rm = TRUE)
+[1] 67.81217
+> mean(spotify_2023$in_apple_charts, trim=0.05)
+[1] 47.65658
+> mean(spotify_2023$in_spotify_charts, trim=0.05)
+[1] 9.182771
+> mean(spotify_2023$in_spotify_playlists, trim=0.05)
+[1] 3966.227
+> mean(spotify_2023$in_apple_playlists, trim=0.05)
+[1] 56.27939
+> median(spotify_2023$in_apple_charts)
+[1] 38
+> median(spotify_2023$in_spotify_charts)
+[1] 3
+> median(spotify_2023$in_spotify_playlists)
+[1] 2224
+> median(spotify_2023$in_apple_playlists)
+[1] 34
+> var(spotify_2023$in_apple_charts)
+[1] 2563.421
+> var(spotify_2023$in_spotify_charts)
+[1] 383.2194
+> var(spotify_2023$in_spotify_playlists)
+[1] 62372228
+> var(spotify_2023$in_apple_playlists)
+[1] 7472.132
+> sd(spotify_2023$in_apple_charts)
+[1] 50.63024
+> sd(spotify_2023$in_spotify_charts)
+[1] 19.57599
+> sd(spotify_2023$in_spotify_playlists)
+[1] 7897.609
+> sd(spotify_2023$in_apple_playlists)
+[1] 86.44149
