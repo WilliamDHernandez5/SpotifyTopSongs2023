@@ -1,0 +1,51 @@
+> t.test(spotify_2023$in_apple_charts, conf.level = 0.95)
+
+	One Sample t-test
+
+data:  spotify_2023$in_apple_charts
+t = 31.65, df = 952, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 48.69013 55.12729
+sample estimates:
+mean of x 
+ 51.90871 
+
+> t.test(spotify_2023$in_spotify_charts, conf.level = 0.95)
+
+	One Sample t-test
+
+data:  spotify_2023$in_spotify_charts
+t = 18.938, df = 952, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 10.76499 13.25390
+sample estimates:
+mean of x 
+ 12.00944 
+
+> t.test(spotify_2023$in_spotify_playlists, conf.level = 0.95)
+
+	One Sample t-test
+
+data:  spotify_2023$in_spotify_playlists
+t = 20.327, df = 952, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 4698.072 5702.178
+sample estimates:
+mean of x 
+ 5200.125 
+
+> t.test(spotify_2023$in_apple_playlists, conf.level = 0.95)
+
+	One Sample t-test
+
+data:  spotify_2023$in_apple_playlists
+t = 24.218, df = 952, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 62.31706 73.30728
+sample estimates:
+mean of x 
+ 67.81217 
