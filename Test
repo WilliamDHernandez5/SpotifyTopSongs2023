@@ -1,0 +1,13 @@
+> x <- rnorm(937)
+> t.test(x, mu = 4000)
+
+	One Sample t-test
+
+data:  x
+t = -121632, df = 936, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 4000
+95 percent confidence interval:
+ -0.14308576 -0.01400511
+sample estimates:
+  mean of x 
+-0.07854543 
