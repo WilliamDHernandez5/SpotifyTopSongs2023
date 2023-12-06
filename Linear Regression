@@ -1,0 +1,9 @@
+plot(spotify_2023$in_apple_playlists, spotify_2023$in_spotify_playlists)
+lm(in_apple_playlists~in_spotify_playlists, data = spotify_2023)
+
+Call:
+lm(formula = in_apple_playlists ~ in_spotify_playlists, data = spotify_2023)
+
+Coefficients:
+         (Intercept)  in_spotify_playlists  
+           27.499308              0.007752 
