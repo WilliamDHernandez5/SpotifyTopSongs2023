@@ -1,0 +1,14 @@
+> mean(spotify_2023$`danceability_%`)
+[1] 66.96957
+> mean(spotify_2023$`valence_%`)
+[1] 51.43127
+> mean(spotify_2023$`energy_%`)
+[1] 64.27912
+> mean(spotify_2023$`acousticness_%`)
+[1] 27.05771
+> mean(spotify_2023$`instrumentalness_%`)
+[1] 1.581322
+> mean(spotify_2023$`liveness_%`)
+[1] 18.21301
+> mean(spotify_2023$`speechiness_%`)
+[1] 10.13116
